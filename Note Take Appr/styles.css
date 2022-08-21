@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: ##b2d2c8;
+}
+
+.card {
+  width: 26rem;
+  height: 30rem;
+  border: 1px solid black;
+  position: relative;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  box-shadow: 0 0 5px 0 #c3f2cd;
+  background-color: #8ce8db;
+  border-radius: 8px;
+  overflow: auto;
+}
+.card .inputs_area  {
+    position: relative;
+    top: 10px;
+    left: 3px;
+    right: 20px;
+    width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card .inputs_area input[type="submit"] {
+	width: 8rem;
+	height: 30px;
+	background-color: lightgreen;
+	color: black;
+	font-size: 19px;
+	border: 2px solid green;
+	outline: 0;
+	border-radius: 4px;
+}
+.card .inputs_area input[type="text"] {
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	border: 2px solid #262626;
+	outline: 0;
+	font-size: 22px;
+	font-family: monospace;
+	margin-bottom: 10px;
+
+}
+section .notes_section {
+	border: 0;
+	border-top: 2px solid black;
+	height: auto;
+	width: calc(100% - 40px);
+    
+}
+section .notes_section .note{
+	border-bottom: 1px dotted black;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+section .notes_section .note .cancelBtn {
+  font-size: 15px;
+  border: 1px solid black;
+  outline: 0;
+  margin-right: 2px;
+  background-color: #fbbfbf;
+  height: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+section .notes_section .note p {
+	padding-left: 10px;
+	font-family: monospace;
+	font-size: 18px;
+}
